@@ -23,9 +23,9 @@ COPY --from=builder /app/target/CourseManagementSystem-0.0.1-SNAPSHOT.jar app.ja
 EXPOSE 8080
 
 # Pass through DB env vars at runtime (Railway or docker run -e ...)
-ENV DB_URL=""
-ENV DB_USER=""
-ENV DB_PASSWORD=""
+ENV DB_URL="jdbc:mysql://root:xdEJIfJfFRmNElRyWdslMPZTDcanZbdR@ballast.proxy.rlwy.net:33765/railway"
+ENV DB_USER="root"
+ENV DB_PASSWORD="xdEJIfJfFRmNElRyWdslMPZTDcanZbdR"
 
 ENTRYPOINT ["java","-jar","/app/app.jar"]
 
