@@ -1,7 +1,6 @@
 package com.example.coursemanagementsystem.service;
 
 import com.example.coursemanagementsystem.dto.ResultDTO;
-import com.example.coursemanagementsystem.entitiy.Result;
 
 import java.util.List;
 
