@@ -1,0 +1,23 @@
+# Maven output
+/target
+
+# Git
+/.git
+/.gitignore
+
+# IDE
+/.idea
+*.iml
+/.project
+/.classpath
+/.settings/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node (if any present in monorepo)
+/node_modules
+/npm-debug.log
+/.yarn
+/.pnpm-store
