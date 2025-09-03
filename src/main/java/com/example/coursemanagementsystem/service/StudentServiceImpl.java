@@ -30,7 +30,7 @@ public class StudentServiceImpl implements StudentService {
             student.setId(id);
             return repo.save(student);
         }
-        throw new RuntimeException("Course not found");
+        throw new RuntimeException("Student not found");
     }
 
     @Override
